@@ -3,7 +3,7 @@ import 'package:flutter_theniguide/screens/tabs_screen.dart';
 import 'package:flutter_theniguide/screens/allplaces2_screen.dart';
 import 'package:flutter_theniguide/screens/filters_screen.dart';
 import 'package:launch_review/launch_review.dart';
-import 'package:url_launcher/url_launcher.dart';
+//import 'package:url_launcher/url_launcher.dart';
 
 class MainDrawer extends StatelessWidget {
   Widget buildListTile(String title, IconData icon, Function tapHandler) {
@@ -55,11 +55,11 @@ class MainDrawer extends StatelessWidget {
           }),
           buildListTile('Rate Us', Icons.rate_review, () {
             //LaunchReview.launch(androidAppId: com.thenikaran.guide);
-            launch('https://play.google.com/store/apps/details?id=com.thenikaran.guide');
+           // launch('https://play.google.com/store/apps/details?id=com.thenikaran.guide');
 
           }),
           buildListTile('More Apps', Icons.add_circle_outline, () {
-            launch("https://play.google.com/store/apps/developer?id=vignesh+s");
+           // launch("https://play.google.com/store/apps/developer?id=vignesh+s");
           }),
         ],
       ),

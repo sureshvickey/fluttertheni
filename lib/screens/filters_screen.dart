@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../widgets/main_drawer.dart';
 import 'package:flutter_theniguide/screens/tabs_screen.dart';
-import 'package:url_launcher/url_launcher.dart';
+//import 'package:url_launcher/url_launcher.dart';
 class FiltersScreen extends StatelessWidget {
   static const routeName = '/filters';
 
@@ -57,7 +57,7 @@ class FiltersScreen extends StatelessWidget {
               new Icon(icon),
         new GestureDetector(
           onTap: () {
-            launch(urlString);
+           // launch(urlString);
           },
           child: new Text("my Title"),
         )
